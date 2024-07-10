@@ -1,17 +1,20 @@
 # Distance-Measuring-System-
 
-Hardware and Components
-ATmega32 Microcontroller with a frequency of 8 MHz.
-Ultrasonic sensor HC-SR04.
-4x16 LCD.
-Appropriate cables and connectors for wiring.
-Power supply for the components.
-Drivers
-GPIO Driver: Implement a GPIO driver for controlling general-purpose input/output pins without referencing any specific course material.
+* Hardware and Components: 
+- ATmega32 Microcontroller with a frequency of 8 MHz.
+- Ultrasonic sensor HC-SR04.
+- 4x16 LCD.
+- Appropriate cables and connectors for wiring.
+- Power supply for the components.
+- Drivers
+* GPIO Driver:
+  Implement a GPIO driver for controlling general-purpose input/output pins without referencing any specific course material.
 
-ICU Driver: Create an Input Capture Unit (ICU) driver for capturing time intervals without referring to any particular course materials. Configure the ICU to work with a frequency of F_CPU/8 and to detect the rising edge as the first edge. The ICU_init and ICU_setCallBack functions should be used for setting up the ICU.
+* ICU Driver:
+- Create an Input Capture Unit (ICU) driver for capturing time intervals without referring to any particular course materials. Configure the ICU to work with a frequency of F_CPU/8 and to detect the rising edge as the first edge. The ICU_init and ICU_setCallBack functions should be used for setting up the ICU.
 
-LCD Driver: Implement an LCD driver to control the 4x16 LCD display without referring to any specific course material. Use an 8-bit data mode. Connect the control pins and data pins as follows:
+* LCD Driver:
+- Implement an LCD driver to control the 4x16 LCD display without referring to any specific course material. Use an 8-bit data mode. Connect the control pins and data pins as follows:
 
 RS → PB0
 RW → Ground
